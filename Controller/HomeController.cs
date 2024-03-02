@@ -8,7 +8,8 @@ namespace Project.Controller
         {
             int x = 5;
             int y = 6;
-            int sum = x + y;
+            int z = 7;
+            int sum = x + y + z;
             Console.WriteLine(sum);
             return View();
         }
