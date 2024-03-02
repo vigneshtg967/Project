@@ -6,9 +6,10 @@ namespace Project.Controller
     {
         public IActionResult Index()
         {
-            var message = "Good Morning";
-            var changevicky = 20;
-            var change = "30";
+            int x = 5;
+            int y = 6;
+            int sum = x + y;
+            Console.WriteLine(sum);
             return View();
         }
     }
