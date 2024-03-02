@@ -8,6 +8,7 @@ namespace Project.Controller
         {
             var message = "Good Morning";
             var changevicky = 20;
+            var change = "30";
             return View();
         }
     }
