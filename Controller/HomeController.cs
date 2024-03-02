@@ -6,6 +6,7 @@ namespace Project.Controller
     {
         public IActionResult Index()
         { 
+            var message = "Good Morning";
             return View();
         }
     }
