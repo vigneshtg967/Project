@@ -7,6 +7,8 @@ namespace Project.Controller
         public IActionResult Index()
         {
             var changevicky = 20;
+            var change = 10;
+
             return View();
         }
     }
